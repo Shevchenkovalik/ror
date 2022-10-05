@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+a{
+    background-color: black;
+    color: black;
+    border-radius: 150px;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    height: 300px;
+    animation-name: ror;
+    animation-duration: 8.3s;
+    transition: all 1s linear
+}
+
+
+/* a:hover{
+    transform:scale(4.05) ;
+} */
+
+@keyframes ror{
+    
+    0%{
+        transform: scale(0.01);
+        opacity: 0;
+    }
+
+        
+    100%{
+        transform: scale(1) ;
+        opacity: 1;
+    }
+}
